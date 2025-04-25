@@ -1,6 +1,6 @@
-# React + TypeScript + Vite
+# React + TypeScript + Vite + Tanstack router + Tailwindcss + NGINX + Docker
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules. Also included router, tailwindcss, prettier and configuration to host the static using nginx in docker.
 
 Currently, two official plugins are available:
 
