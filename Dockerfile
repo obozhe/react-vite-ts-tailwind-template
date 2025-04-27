@@ -12,7 +12,7 @@ FROM nginx:alpine AS deploy
 # Copy the build files to the container
 COPY --from=build /app/dist /usr/share/nginx/html
 # Copy the ngnix.conf to the container
-COPY --from=build /app/nginx.conf /etc/nginx/nginx.conf
+COPY nginx.conf /etc/nginx/nginx.conf
 # Expose port 80 for Nginx
 EXPOSE 80
 # Start Nginx when the container starts
